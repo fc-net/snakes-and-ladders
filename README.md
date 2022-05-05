@@ -6,8 +6,6 @@ Snakes and Ladders is a board game involving two or more players rolling dice in
 
 From a technical point of view, the implementation of this game needs to be platform agnostic. We are going to want to launch this game on multiple devices and need a solid, robust game library which we can use as the backend for every frontend we stick on it. For this reason, we are not interested in the frontend you choose to use to test the game, only that the core game logic is separate and tested. 
 
-![board](/img/snakesandladdersboard.jpg)
-
 The first feature we want implemented is the ability to move your token across the board using dice rolls. Players will need the ability to roll a dice, move their token the number of squares indicated by the dice roll and should win if they land on the final square. The feature is splitted in three user stories.
 
 ### US 1 - Token Can Move Across the Board
