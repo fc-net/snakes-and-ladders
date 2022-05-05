@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakesAndLadders", "src\SnakesAndLadders\SnakesAndLadders.csproj", "{3D3E0E46-D8CE-40E6-B301-EFEF09B20FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakesAndLadders.Tests", "test\SnakesAndLadders.Tests\SnakesAndLadders.Tests.csproj", "{D2630F19-AF1F-4B7F-A44B-43EFE6073A16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D3E0E46-D8CE-40E6-B301-EFEF09B20FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3E0E46-D8CE-40E6-B301-EFEF09B20FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3E0E46-D8CE-40E6-B301-EFEF09B20FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3E0E46-D8CE-40E6-B301-EFEF09B20FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2630F19-AF1F-4B7F-A44B-43EFE6073A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2630F19-AF1F-4B7F-A44B-43EFE6073A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2630F19-AF1F-4B7F-A44B-43EFE6073A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2630F19-AF1F-4B7F-A44B-43EFE6073A16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3312FBD8-90B5-4DE9-86C9-BB55AAE5F33C}
+	EndGlobalSection
+EndGlobal
